@@ -2,10 +2,11 @@ const express = require('express')
 const mongoose = require('mongoose')
 const morgan = require('morgan')
 const http = require('http')
+const user = require('./router/routes')
+const keyfile = require('./config/keyfile')
 const app = express()
 const port = process.env.PORT
-const dbUrl = process.env.dbUrl
-const user = require('./router/routes')
+const dbUrl = keyfile.dbUrl
 
 const option = {
     useNewUrlParser: true,
