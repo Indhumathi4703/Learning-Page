@@ -1,0 +1,26 @@
+{
+  "name": "learning-page",
+  "version": "1.0.0",
+  "description": "Former site ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Indhumathi4703/Learning-Page.git"
+  },
+  "author": "Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Indhumathi4703/Learning-Page/issues"
+  },
+  "homepage": "https://github.com/Indhumathi4703/Learning-Page#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.3.2",
+    "morgan": "^1.10.0"
+  }
+}
